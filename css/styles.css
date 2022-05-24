@@ -3,9 +3,9 @@
     --secondary-text-color:#757575;
     --accent-color:#2196F3;
     --secondary-accent-color:#FFFFFF;
-    --primary-bg-color: #E5E5E5;
-    --secondary-bg-color:#FFFFFF;
+    --primary-bg-color: #FFFFFF;
     --bg-accent-color:#2F303A;
+    --pf-btn-color: #F5F4FA;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -16,9 +16,7 @@ body {
 }
 ul {list-style: none;} 
 a {text-decoration: none;}
-header {
-    background-color: var(--secondary-bg-color)
-}
+
 /* -----------------------------лого с хедера и футера -------------------*/
 .logo, .span-logo, .span-logof
 {   color: var(--primary-text-color);
@@ -44,10 +42,6 @@ header {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden; }
-    
-/* .section {
-    background-color: var(--primary-bg-color);
-} */
 .nav {
     font-weight: 500;
     line-height: 1.14;
@@ -118,6 +112,7 @@ header {
 /* -----------------------------features -------------------------------*/
 .features-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
@@ -134,7 +129,7 @@ header {
 }
 .persons-cards {box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--primary-bg-color);
 }
 .person {
     font-weight: 500;
@@ -156,9 +151,9 @@ header {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62x;
+    line-height: 1.62;
     text-align:center;
-    background-color: #F5F4FA;
+    background-color: var(--pf-btn-color) ;
     color: var(--primary-text-color);
     border-radius: 4px;
     border: none;
